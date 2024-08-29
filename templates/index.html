@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoruichi Pizzeria</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Yoruichi Pizzeria</h1>
+        <img src="{{ url_for('static', filename='yoruichi.jpg') }}" width="250" height="350" alt="Yoruichi">
+    </header>
+    <main>
+        <div class="container">
+            <a href="templates/menu" class="menu-link">МЕНЮ</a>
+        </div>
+    </main>
+</body>
+</html>
